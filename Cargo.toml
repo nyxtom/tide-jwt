@@ -1,7 +1,15 @@
 [package]
 name = "tide-jwt"
 version = "0.1.0"
+authors = ["Thomas Holloway <nyxtom@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+description = "Tide (http-rs/tide) JWT Authorization Middleware"
+homepage = "https://github.com/nyxtom/tide-jwt"
+repository = "https://github.com/nyxtom/tide-jwt"
+keywords = ["jwt", "api", "token", "jwk", "tide"]
 edition = "2021"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
