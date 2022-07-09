@@ -1,0 +1,3 @@
+# tide-jwt
+
+Simple implementation of [JWT](https://docs.rs/jsonwebtoken) Authorization Middleware for the [tide](https://github.com/http-rs/tide) web framework. This makes use of the [jsonwebtoken](https://docs.rs/jsonwebtoken) crate for the encoding/decoding. It will only return Unauthorized in the case where an *Authorization* header is found and it is not valid. If no authorization header is found the middleware will continue to run. It is up to the implementation to make sure to check if the request is actually authenticated to prevent downstream middleware from running and to return the appropriate response.
