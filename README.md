@@ -4,12 +4,11 @@ Simple implementation of [JWT](https://docs.rs/jsonwebtoken) Authorization Middl
 
 ## Features
 
-[x] Read "Authorization" header
-[x] Validate "Bearer" token with generic claims and [jsonwebtoken](https://docs.rs/jsonwebtoken)
-[x] Add helper functions for encoding (from secret base64, chosen algorithm, claims)
-[x] Support Send + Sync + 'static, Serializable/Deserialize ([serde](https://docs.rs/serde)) claims used for [jsonwebtoken](https://docs.rs/jsonwebtoken)
-[] Possibly read jwt cookie if configured/present
-[] Support for non jwt (jose spec)
+- [x] Read "Authorization" header
+- [x] Validate "Bearer" token with generic claims and [jsonwebtoken](https://docs.rs/jsonwebtoken)
+- [x] Add helper functions for encoding (from secret base64, chosen algorithm, claims)
+- [x] Support Send + Sync + 'static, Serializable/Deserialize ([serde](https://docs.rs/serde)) claims used for [jsonwebtoken](https://docs.rs/jsonwebtoken)
+- [ ] Possibly read jwt cookie if configured/present
 
 ## Examples
 
